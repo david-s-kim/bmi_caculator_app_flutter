@@ -62,10 +62,6 @@ class _MainScreenState extends State<MainScreen> {
                     return;
                   }
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ()),
-                  );
-                  Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (context) => const ResultScreen(
